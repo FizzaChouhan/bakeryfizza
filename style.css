@@ -78,6 +78,7 @@ padding-right: 10px;
     
 
 }
+
 #heading{
     color: white;
     font-size: 72px;
@@ -138,8 +139,11 @@ figcaption{
     width: 200px;
     border-radius: 10px;
 }
-#four{
-    background-image: url(images/bg1.jpg);
+#two{
+    
+}
+#four{ background: transparent;
+   background-image: url("images/bg1.jpg"); 
 }
 #heading1{
     font-family: sans-serif;
@@ -157,7 +161,9 @@ color: white;}
  }
     
     .five{
-        background-color: #5fcac7;
+        background-image: url(images/bg3.jpg);
+        height: 95vh;
+        
     }
 .mcol{
     border-color: white;
@@ -201,6 +207,7 @@ color: white;}
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    background-image: ;
 }
 .image{
     width: 230px;
@@ -230,11 +237,16 @@ color: white;}
     flex-direction: column;
     align-items: center;
 }
+.eight{
+    
+
+}
 .foot{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: pink;
+    background-color:;
+
 }
 .hf{
     color: white;
@@ -242,11 +254,22 @@ color: white;}
     font-family: sans-serif;
 }
 .nine{
-    background-color: pink;
+    background-color:;
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
     
+}
+.bgma{ background-image:url(images/bglast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgm{
+    background-image: url(images/bgl.jpg);
+    background-size: cover;
 }
 .row2{
     display: flex;
@@ -389,11 +412,12 @@ input{
     color: #ffffff;
 }
 .ele{
-    background-color: #4b4342;
+    background-color:;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 85vh;
+    height: 105vh;
+    background-image: url(images/bglasts.jpg);
 } 
 .twe{
     background-color:#202020;
