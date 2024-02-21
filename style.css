@@ -163,6 +163,7 @@ color: white;}
     .five{
         background-image: url(images/bg3.jpg);
         height: 95vh;
+        opacity: 5;
         
     }
 .mcol{
@@ -170,6 +171,7 @@ color: white;}
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top:100px ;
     
     
     
@@ -178,8 +180,9 @@ color: white;}
 
  #icon{
     color:white ;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+    
 
  }
 
@@ -266,6 +269,7 @@ color: white;}
 .bgma{ background-image:url(images/bglast.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 30px;
 }
 .bgm{
     background-image: url(images/bgl.jpg);
@@ -418,6 +422,7 @@ input{
     align-items: center;
     height: 105vh;
     background-image: url(images/bglasts.jpg);
+    background-size: cover;
 } 
 .twe{
     background-color:#202020;
@@ -443,6 +448,7 @@ input{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 40px;
+    margin-right: 40px;
     
 }
 #logos{
